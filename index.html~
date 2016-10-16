@@ -41,7 +41,7 @@
 
    		<div class="top-bar">
    			<a class="menu-toggle" href="#"><span></span></a>
-			<div style="padding-top: 1.2em; padding-left: 3em;"><p style="color: #cc005f; font-family: 'poppins-medium', sans-serif;"> &nbsp; Menu </p></div>
+			<div style="padding-top: 1.2em; padding-left: 3em;"><p style="color: #cc005f; font-family: 'poppins-medium', sans-serif;"> &nbsp; MENU </p></div>
 	   	      <div>
 		         <a href="index.html"></a>
 		      </div>		      
@@ -78,7 +78,6 @@
 
 	   			<p class="intro-position">
 	   				<span>Graduate Student in Computer Science</span>
-	   				<span>Budding Software Engineer</span>
 	   			</p>
 
 	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
@@ -89,10 +88,10 @@
    	</div> <!-- /intro-content --> 
 
    	<ul class="intro-social">        
-         <li><a href="https://www.facebook.com/sridharn.93"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="https://www.linkedin.com/in/sridharswamy"><i class="fa fa-linkedin"></i></a></li>
-         <li><a href="https://www.instagram.com/sridharn_93"><i class="fa fa-instagram"></i></a></li>
-         <li><a href="https://github.com/sridharswamy"><i class="fa fa-github"></i></a></li>
+         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="http://www.linkedin.com/in/sridharswamy"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
       </ul> <!-- /intro-social -->      	
 
    </section> <!-- /intro -->
@@ -101,17 +100,15 @@
    <!-- about section
    ================================================== -->
    <section id="about">  
-  	<div class="row section-intro">
+
+   	<div class="row section-intro">
    		<div class="col-twelve">
-   			<h2>About Me</h2>
+   			<h5>About Me</h5>
 			
    			<div class="intro-info">
    				<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-   				<p class="lead">
-   					Hey there! 
-   				</p>
-   				<br> <br> <br>
+   				<p class="lead"> Hey there! I'm currently pursuing my Masters degree in Computer Science. </p>
    			</div>   			
 
    		</div>   		
@@ -125,20 +122,24 @@
 
    			<ul class="info-list">
    				<li>
-   					<strong> Fullname </strong>
-   					<span> Sridhar Narayana Swamy </span>
+   					<strong>Fullname:</strong>
+   					<span>Sridhar Swamy</span>
    				</li>
    				<li>
-   					<strong> Birth Date </strong>
-   					<span> April 15, 1993 </span>
+   					<strong>Birth Date:</strong>
+   					<span>April 15, 1993</span>
    				</li>
    				<li>
-   					<strong> Qualifications </strong>
-   					<span> Graduate Student, Software Developer </span>
+   					<strong>Job:</strong>
+   					<span>Graduate Student, Software Developer</span>
    				</li>
    				<li>
-   					<strong> Hobbies </strong>
-   					<span> <ul> <li> Listening to Music </li> <li> Travelling </li> <li> Coin Collection </li> </span>
+   					<strong>LinkedIn:</strong>
+   					<span>linkedin.com/in/sridharswamy</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>snswamy@ncsu.edu</span>
    				</li>
 
    			</ul> <!-- /info-list -->
@@ -146,34 +147,45 @@
    		</div>
 
    		<div class="col-six tab-full">
+
    			<h3>Skills</h3>
+
 				<ul class="skill-bars">
 				   <li>
 				   	<div class="progress percent100"><span>Expert</span></div>
-				   	<strong> Java </strong>
+				   	<strong>Java</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent80"><span>Advanced</span></div>
-				   	<strong> Python </strong>
+				   	<strong>Python</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent60"><span>Intermediate</span></div>
-				   	<strong> C++ </strong>
+				   	<strong>C++</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent80"><span>Advanced</span></div>
-				   	<strong> SQL </strong>
+				   	<strong>SQL</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent60"><span>Intermediate</span></div>
-				   	<strong> Hadoop </strong>
+				   	<strong>Hadoop</strong>
 				   </li>      
 				   <li>
 				   	<div class="progress percent60"><span>Intermediate</span></div>
-				   	<strong> Spark </strong>
+				   	<strong>Spark</strong>
 				   </li>
 				</ul> <!-- /skill-bars -->		
+
    		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
    	</div>
 
    </section> <!-- /process-->    
@@ -185,7 +197,12 @@
 
 		<div class="row section-intro">
    		<div class="col-twelve">
+
+   			<h5>Resume</h5>
    			<h1>More of my credentials.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
    		</div>   		
    	</div> <!-- /section-intro--> 
 
@@ -210,19 +227,19 @@
 	   				<div class="timeline-header">
 	   					<h3>Software Engineering Intern</h3>
 	   					<p>May 2016 - August 2016</p>
-						<h4> Technologies used </h4>
-						Flask, Java, Redis, Bootstrap, Bash, Git, AWS
+						<h4> Technologies used: </h4>
+						<p> Python, Redis, Bootstrap,
+						</p>
 	   				</div>
 
 	   				<div class="timeline-content">
 	   					<h4> Cloudera </h4>
 	   					<ul>
-		   					<li> Designed and developed an application that allows users to inject process, network, and disk failures on-demand into a
-							CDH cluster for failure testing. </li>
-							<li> Developed modules for generating system usage reports and customisable charts to track injection activities by services, failure actions, and results. </li>
-							<li> Improved the performance of the in-house failure-injection tool by implementing a host-selection policy in Java that
-							intelligently selects hosts while executing failure actions on a CDH cluster. </li>
-						</ul>
+	   					<li> Designed and developed an application that can inject process, network, and disk failures into a CDH cluster on-demand. The application was used for evaluating Cloudera Manager's resilience to failures while executing workloads.</li>
+						<li> Augmented the performance of the in-house failure-injection tool by implementing a host-selection policy that intelligently selects hosts. </li>
+						<li> Employed agile methodology, and strong documentation and coding practices to complete tasks effectively. </li>
+					</ul>
+
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -236,20 +253,18 @@
 	   				<div class="timeline-header">
 	   					<h3>Software Developer</h3>
 	   					<p>February 2016 - Present </p>
-	   					<h4> Technologies used </h4>
-						Java, Apache POI, JavaScript, Google Maps API, Subversion
-
 						<br>						
 
 	   				</div>
 
 	   				<div class="timeline-content">
 	   					<h4> NCSU CIPM </h4>
-	   					<li> Developing a web application for the USDA to generate detailed Excel reports of budget estimates for pest mitigation. </li>
-						<li> Reduced the time required by analysts to generate reports from hours to minutes by automating and streamlining the
-							 previously manual processes and workflow. </li>
-						<li> Performed requirement gathering and analysis, identified problems and provided effective solutions to critical problems. </li>
-						<br>
+	   					<li> Designed, developed and maintained a web application for the USDA to generate budget estimate reports in MS-Excel for addressing emergency pest issues. </li>
+						<li> Reduced the time taken to generate a report by approximately 66% by automating the whole report-generation process. </li>
+						<li> Contributed to several software engineering activities in the development life cycle including requirements definition, design, implementation, and maintenance. </li>
+						<li> Technologies used: Java Servlets, JSP, MySQL, JavaScript, Apache POI, Bootstrap </li>
+
+
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -263,7 +278,6 @@
 	   				<div class="timeline-header">
 	   					<h3> Chairperson </h3>
 	   					<p> August 2013 - August 2014</p>
-						
 	   				</div>
 
 	   				<div class="timeline-content">
@@ -305,17 +319,7 @@
 
 	   				<div class="timeline-content">
 	   					<h4>North Carolina State University</h4>
-	   					<b> Relevant Courses </b>	
-	   					<li> Design and Analysis of Algorithms </li>
-	   					<li> Software Engineering </li>
-	   					<li> Data Intensive Computing </li> 
-	   					<li> Database Management Systems </li>
-	   					<li> Software Security </li>
-	   					<li> Foundations of Data Science </li>
-	   					<li> Algorithms for Data Guided Business Intelligence </li>
-	   					<li> Machine Learning </li>
-	   					<li> Advanced Machine Learning </li>
-	   					</p>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -334,33 +338,32 @@
 
 	   				<div class="timeline-content">
 	   					<h4> University of Mumbai </h4>
-	   					<b> Relevant Courses </b>	
-	   					<ul>
-							<li> Data Structure and Files </li>
-							<li> Database Management System </li>
-							<li> Operating Systems </li>
-							<li> Computer Networks </li>
-							<li> Advanced Database Management Systems </li>
-							<li> Object-oriented Software Engineering </li>
-							<li> Data Warehouse and Mining </li>
-							<li> Human Computer Interaction </li>
-							<li> Distributed Computing </li>
-							<li> Discrete Structure and Graph Theory </li>
-							<li> Computer Graphics </li>
-	   					</ul>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>May 2013 - June 2014</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Design College</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
 
    			</div> <!-- /timeline-wrap -->   			
 
-
    		</div> <!-- /col-twelve -->
-   	<div class="row button-section">
-   		<div class="col-twelve">
-   			<a href="#" title="Download Resume" class="button button-primary">Download Resume</a>
-   		</div>   		
-   	</div>
    		
    	</div> <!-- /resume-timeline -->
 		
@@ -389,16 +392,15 @@
    			<!-- portfolio-wrapper -->
 	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-
 	         	<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/slackbot.jpg" alt="Liberty">
+	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
 	                  <a href="#modal-01" class="overlay">	                  	           
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title"> Slack Bot for GitHub users</h3>	     					    
+		     					       <h3 class="folio-title">Liberty</h3>	     					    
 		     					    	 <span class="folio-types">
-		     					       	  JavaScript, Redis, GitHub API, Slack API
+		     					       	  Graphic Design
 		     					       </span>
 		     					   </div>	                      	
 	                     </div>                    
@@ -408,13 +410,13 @@
 
 	        		<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/meeting_room.jpg" alt="Shutterbug">
+	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
 	               	<a href="#modal-02" class="overlay">              		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Roombo : Meeting Room Scheduler</h3>	     					    
+	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Flask, Google Calendar API
+		     					       	  Web Design
 		     					      </span>		     		
 		     					   </div> 	                      	
 	                     </div>                    
@@ -422,16 +424,15 @@
 	               </div>
 	        		</div> <!-- /folio-item -->
 
-
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/twitter.jpg"alt="Clouds">
+	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
 	                  <a href="#modal-03" class="overlay">             		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Twitter Sentiment Analysis using Spark Streaming and Kafka</h3>	     					    
+	                     		<h3 class="folio-title">Clouds</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Python, Spark Streaming, Apache Kafka
+		     					       	  Web Design
 		     					      </span>		     		
 		     					   </div> 	                      	
 	                     </div>                    
@@ -439,33 +440,15 @@
 	               </div>
 	        		</div> <!-- /folio-item -->
 
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/music.jpg" alt="Liberty">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title"> Music Recommender System </h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Apache Spark, Python
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div> <!-- /folio-item -->
-
-
-
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/distdb.jpg" alt="Beetle">
+	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
 	                  <a href="#modal-04" class="overlay">                  	                 
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title"> SimpleDB </h3>	     					    
+	                     		<h3 class="folio-title">Beetle</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Java
+		     					       	  Branding
 		     					      </span>		     		
 		     					   </div>  	                      	
 	                     </div>                    
@@ -475,13 +458,13 @@
 
 	        		<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/library.jpg" alt="Lighthouse">
+	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
 	                  <a href="#modal-05" class="overlay">             		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Library Management System</h3>	     					    
+	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Java, Oracle 11g, HTML, CSS
+		     					       	  Web Development
 		     					      </span>		     		
 		     					   </div> 	                      	
 	                     </div>                    
@@ -491,49 +474,31 @@
 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/targeted.jpg" alt="Salad" border="1">
+	               	<img src="images/portfolio/salad.jpg" alt="Salad">
 	                  <a href="#modal-06" class="overlay">
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Behavioural Targeting using Web Activity and Social Media Data</h3>
+	                     		<h3 class="folio-title">Salad</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Python, MongoDB, Shiny 
-		     					        </span>		     		
+		     					       	  Branding
+		     					      </span>		     		
 		     					   </div>	                      	
 	                     </div>                    
 	                  </a>
 	               </div>
 	        		</div> <!-- /folio-item -->   
 
-<!--				<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/distdb.jpg" alt="Salad">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Behavioural Targeting using Web Activity and Social Media Data</h3>
-		     					    	<span class="folio-types">
-		     					       	  Python, MongoDB, Shiny 
-		     					        </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->   
 	            <!-- modal popups - begin
 	            ============================================================= -->
 	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/modals/slackbot.jpg" alt="" />
+				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
 					      <h4>Liberty</h4>		      
-					      <p>
-							• Developed a music recommendation system based on Alternating Least Squares Method for Collaborative Filtering using Apache Spark's scalable Machine Learning library (MLlib). <br>
-							• Performed parameter tuning for building the model, optimized the execution time by using RDD caching mechanism and determined the predictive accuracy of the model using a subset of the Audioscrobbler dataset as the testing data.
-					      </p>
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
 
 					      <div class="categories">Web Development</div>			               
 					   </div>
@@ -546,6 +511,11 @@
 				   </div> <!-- /modal-01 -->
 
 				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     	</div>      	
+
 					   <div class="description-box">
 					      <h4>Shutterbug</h4>		      
 					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -561,22 +531,31 @@
 				   </div> <!-- /modal-02 -->
 
 				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     	</div>      	
+
 					   <div class="description-box">
 					      <h4>Clouds</h4>		      
-					      <p> Designed and developed a Spark Streaming application integrated with Apache Kafka to perform real-time sentiment
-						      analysis of incoming product review tweets. </p>
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
 
 					      <div class="categories">Web Design</div>			               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/sridharswamy/Twitter-Sentiment-Analysis-Using-Spark-Streaming-And-Kafka">Details</a>
+			            <a href="http://www.behance.net">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> <!-- /modal-03 -->
 
 				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
 					   <div class="description-box">
 					      <h4>Beetle</h4>		      
 					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -592,6 +571,11 @@
 				   </div> <!-- /modal-04 -->
 
 				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+				     	</div>      	
+
 					   <div class="description-box">
 					      <h4>Lighthouse</h4>		      
 					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -607,12 +591,16 @@
 				   </div> <!-- /modal-05 -->
 
 				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
 					   <div class="description-box">
-					      <h4> Behavioural Targeting using Web Activity & Social Media Data </h4>		      
-					      <p>• Devised a hybrid approach which involved monitoring a user's web activity and extracting social media data to create a user profile for behavioural targeting. <br>
-							 • Built a fine-tuned unbiased SVM classifier using linear kernel with an accuracy of ~88.5% to segment users into one of the 6 predefined categories based on their areas of interest. <br>
-  							 • Developed a dynamic word cloud module to visualize the top keywords from user's browsing history. <br>
-							 • Technologies used: R, Python and MongoDB.</p>
+					      <h4>Salad</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
 					   </div>
 
 			         <div class="link-box">
@@ -635,6 +623,263 @@
 	</section> <!-- /portfolio --> 
 
 
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve section-ads">  
+
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+		      <p class="lead">
+		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
+				</p>
+
+				<div class="action">
+			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+		      </div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Webdesign</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Web Development</h3>  
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Branding</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	         		
+	            </div>                
+
+				</div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Graphics Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Consultancy</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	        			
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							900
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							120
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
 	
    <!-- contact
    ================================================== -->
@@ -645,9 +890,58 @@
 
    			<h5>Contact</h5>
    			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
    		</div> 
    	</div> <!-- /section-intro -->
 
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
 
    	<div class="row contact-info">
 
@@ -676,7 +970,7 @@
    			<h5>Email Me At</h5>
 
    			<p>snswamy@ncsu.edu<br>
-			   sridhar.swamy.1504@gmail.com
+			   sridhar.swamy@ves.ac.in			     
 			   </p>
 
    		</div>
@@ -708,10 +1002,11 @@
      		<div class="col-six tab-full pull-right social">
 
      			<ul class="footer-social">        
-			      <li><a href="https://www.facebook.com/sridharn.93"><i class="fa fa-facebook"></i></a></li>
-			      <li><a href="https://www.linkedin.com/in/sridharswamy"><i class="fa fa-linkedin"></i></a></li>
-			      <li><a href="https://www.instagram.com/sridharn_93/"><i class="fa fa-instagram"></i></a></li>
-  			     <li><a href="https://github.com/sridharswamy"><i class="fa fa-github"></i></a></li>
+			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 			   </ul> 
 	      		
 	      </div>
